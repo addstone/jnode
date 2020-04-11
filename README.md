@@ -42,7 +42,9 @@ using `Import -> Existing projects into workspace`.
 Execute:
 
 *On Windows*:  build.bat cd-x86-lite  
+*On Windows*:  build.bat cd-x86_64-lite  
 *On Linux*:    build.sh cd-x86-lite  
+*On Linux*:    build.sh cd-x86_64-lite  
 
 Or in Eclipse, execute the "cd-x86-lite" target of all/build.xml.
 
