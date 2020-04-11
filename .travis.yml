@@ -1,1 +1,1 @@
-dist: trustylanguage: javajdk:  - oraclejdk7install:  - sudo apt-get -y install nasmscript: "./.travis/travis.sh"addons:  apt:    packages:      - ant      - qemu
+dist: trustylanguage: javajdk:  - openjdk8install:  - sudo apt-get -y install nasmscript: "./.travis/travis.sh"addons:  apt:    packages:      - ant      - qemu
