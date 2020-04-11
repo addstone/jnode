@@ -1,1 +1,1 @@
-language: javajdk:  - oraclejdk11install:  - sudo apt-get -y install nasmscript: "./.travis/travis.sh"addons:  apt:    packages:      - ant      - qemu
+language: javajdk:  - openjdk8install:  - sudo apt-get -y install nasmscript: "./.travis/travis.sh"addons:  apt:    packages:      - ant      - qemu
